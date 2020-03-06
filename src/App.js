@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import styled from "styled-components";
 import '../src/App.css';
 import AppNav from './Nav/AppNav';
 import Content from '../src/Components/sidebar/Sidebar'
 import Slideshow from './Components/Home/Home'
+import GalleryPhoto from './Components/Gallery/GalleryPhoto';
+import GallerySelect from './Components/Gallery/GallerySelect';
+import Sortable from './Components/Gallery/DragAndDropGallery'
 
 class App extends Component {
     render() {
@@ -17,6 +19,11 @@ class App extends Component {
               </section>
                 <section className="sidebar">
                     <Content />
+                </section>
+                <section className="gallery">
+                    <GalleryPhoto />
+                    <GallerySelect />
+                    <Sortable />
                 </section>
 
               {/* <footer className="footer">

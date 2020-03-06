@@ -86,7 +86,8 @@ const ContainerNav = styled.div`
 height: 100%;
 top: 0;
 width: 100%;
-background: #ffff;
+background: #E8E8E8;
+box-shadow: 10px 0px 60px -20px rgba(0, 0, 0, 0.75);
 // background: pink;
 justify-content: center;
 display: flex;

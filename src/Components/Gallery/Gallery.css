@@ -1,0 +1,53 @@
+.galleryphoto-container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: springgreen;
+}
+
+/* GallerySelect */
+.gallery-select-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 110vh;
+    background-color: tomato;
+}
+.p-gallery-select{
+    padding: 1rem 0 1rem 0;
+    position: relative;
+    color: white;
+    z-index: 2;
+    transform: translateY(100%);
+    margin-bottom: 3rem;
+    opacity: 0.5;
+    transition: all 0.35s ease;
+    top: -1rem;
+    background-color: violet;
+}
+.p-gallery-select::after {
+    background: #76f013;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(-7deg);
+    transform-origin: 100%;
+    z-index: -1;
+    top: 3em;
+}
+.react-photo-gallery--gallery{
+    background-color: yellow;
+}
+
+/* sortable */
+.gallery-sortable-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 110vh;
+    background-color: rgb(126, 71, 255);
+}

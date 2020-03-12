@@ -1,0 +1,94 @@
+form{
+    width: 30%;
+    height: 100%;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #c9d6ff, #e2e2e2); 
+}
+form h4{
+    width: 20%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #C12020;
+    font-size: 1.5rem;
+    /* background-color: yellow; */
+}
+.inputs-cont{
+    width: 80%;
+    height: 30%;
+    line-height: 40px;
+    position: relative;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: slateblue; */
+}
+.row-one{
+    width: 80%;
+    height: 70px;
+    /* background-color: olive; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input, .input-p{
+    border-style: none;
+    border: 1px solid #C12020; 
+    width:285px;
+    border-radius: 20px;
+    text-align: center;
+    color:#F7CC38;
+    padding: 5px 10px 10px 30px;
+    font: 12px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
+    margin-bottom:10px;
+}
+.input, .input-p:focus{
+    outline: 0 none
+}
+.input{
+    background: url(http://img6.uploadhouse.com/fileuploads/17737/177370138cc63992182149e9befabff3eafa6d23.png) no-repeat 10px 9px;
+}
+.input-p{
+    background: url(http://img3.uploadhouse.com/fileuploads/17737/17737011310213e71805ecf2292144cbbecf42ad.png) no-repeat 10px 9px;
+}
+
+.row-three{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: sandybrown; */
+}
+.row-three button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  cursor: pointer;
+  width:85px;
+  height:30px;
+  float:right;
+  padding:0px 0px 5px 0px;
+  margin:10px 16px 0px 0px;
+  background: linear-gradient(to right, #cb356b, #bd3f32);
+  color:#F1F1F1;
+  font: 14px/16px'Bree Serif', Georgia, serif;
+}
+.row-three button:hover{
+    background: linear-gradient(to right, #f2994a, #f2c94c);
+}
+.error{
+    background-color: purple;
+}
+
+

@@ -30,7 +30,7 @@ function GallerySelect() {
   return (
     <div className="gallery-select-cont">
       <p className="p-gallery-select">
-        <button className="gallery-select-btn" onClick={toggleSelectAll}>toggle select all</button>
+        <button className="gallery-select-btn action-button shadow animate" onClick={toggleSelectAll}>toggle select all</button>
       </p>
       <Gallery photos={photos} renderImage={imageRenderer} />
     </div>

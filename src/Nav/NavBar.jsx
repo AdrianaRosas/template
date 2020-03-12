@@ -86,7 +86,9 @@ const ContainerNav = styled.div`
 height: 100%;
 top: 0;
 width: 100%;
-background: #E8E8E8;
+background-color: #E4E4E1;
+ background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
+ 	background-blend-mode: normal, multiply;
 box-shadow: 10px 0px 60px -20px rgba(0, 0, 0, 0.75);
 // background: pink;
 justify-content: center;
@@ -132,7 +134,7 @@ const NavLinks = styled.ul`
   font-family: 'Poppins', sans-serif;
   letter-spacing: 2px;
   height: 80%;
-  color: #0A4716;
+  color: #C12020;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -145,7 +147,7 @@ const NavLinks = styled.ul`
   overflow:hidden;
   border-style: none;
   background-color: transparent;
-  background-image: linear-gradient(#73DDA3, #73DDA3);
+  background-image: linear-gradient(#F7CC38, #F7CC38);
   background-size: 0 2px, auto;
   background-repeat: no-repeat;
   background-position: center bottom 30%;
@@ -154,7 +156,7 @@ const NavLinks = styled.ul`
   transition: all .2s ease-out;
 
   &:hover {
-    color:#73DDA3;
+    color:#F7CC38;
     background-size: calc(30% - 1em) 2px, auto;
 }
 

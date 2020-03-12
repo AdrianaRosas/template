@@ -31,7 +31,7 @@
     break-inside: inherit;
     border-radius: 2px;
     margin: 0 1rem 1rem 1rem;
-    background-color: #0a5f79;
+    background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
     overflow: hidden;
     /* position: relative; */
     cursor: pointer;
@@ -56,7 +56,7 @@
     font-size: 2em;
     font-weight: 800;
     padding-bottom: 2em;
-    color: white;
+    color: #C12020;
     width: 50%;
     position: absolute;
     text-transform: uppercase;
@@ -75,7 +75,7 @@
     transition: all 0.35s ease;
   }
   p::after {
-    background: #13c1f0;
+    background: #C12020;
     bottom: 0;
     content: '';
     display: block;

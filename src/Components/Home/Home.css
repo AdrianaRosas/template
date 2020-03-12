@@ -10,7 +10,7 @@
 .img {
     /* background-color: lightseagreen; */
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     height: 85%;
     width: 100%;
@@ -56,5 +56,5 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    background: rgb(48, 204, 178);
+    background: #C12020;
 }

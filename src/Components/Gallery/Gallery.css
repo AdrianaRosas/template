@@ -1,8 +1,8 @@
 .galleryphoto-container{
     display: flex;
     align-items: center;
-    height: 100vh;
-    background-color: springgreen;
+    height: 130vh;
+    background-image: linear-gradient( 135deg, #F05F57 10%, #360940 100%);
 }
 
 /* GallerySelect */
@@ -10,8 +10,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 110vh;
-    background-color: tomato;
+    height: 130vh;
+    background-image: linear-gradient( 135deg, #FD6E6A 10%, #FFC600 100%);
 }
 .p-gallery-select{
     padding: 1rem 0 1rem 0;
@@ -19,11 +19,11 @@
     color: white;
     z-index: 2;
     transform: translateY(100%);
-    margin-bottom: 3rem;
+    margin-bottom: 10px;
     opacity: 0.5;
     transition: all 0.35s ease;
-    top: -1rem;
-    background-color: violet;
+    top: -80px;
+    background-color: transparent;
 }
 .p-gallery-select::after {
     background: #76f013;
@@ -39,15 +39,45 @@
     z-index: -1;
     top: 3em;
 }
-.react-photo-gallery--gallery{
-    background-color: yellow;
+.p-gallery-select button{
+    position: relative;
+	padding: 10px 40px;
+    margin:  0px 0px 20px 0px;
+    float: left;
+	border-radius: 3px;
+	font-family: 'Poppins',sans-serif;
+	font-size: 18px;
+	color: #c0392b;
+    text-decoration: none;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+	border-bottom: 5px solid #c0392b;
 }
-
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
 /* sortable */
 .gallery-sortable-cont{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 110vh;
-    background-color: rgb(126, 71, 255);
+    justify-content: center;
+    height: 130vh;
+    background-image: linear-gradient( 135deg, #FFCF71 10%, #2376DD 100%);
+}
+.gallery-sortable-cont h2, h3{
+    /* width: 70%; */
+    font-family: 'Poppins',sans-serif;
+    font-weight: lighter;
+    color: #ffff;
+    height: 1rem;
+    margin-bottom: 1rem;
+    /* background-color: turquoise; */
 }

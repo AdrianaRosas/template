@@ -1,7 +1,8 @@
 .galleryphoto-container{
     display: flex;
     align-items: center;
-    height: 130vh;
+    height: 300vh;
+    margin-bottom: 50px;
     background-image: linear-gradient( 135deg, #F05F57 10%, #360940 100%);
 }
 
@@ -10,7 +11,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 130vh;
+    height: 300vh;
+    margin-bottom: 50px;
     background-image: linear-gradient( 135deg, #FD6E6A 10%, #FFC600 100%);
 }
 .p-gallery-select{
@@ -69,7 +71,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 130vh;
+    height: 300vh;
+    margin-bottom: 50px;
     background-image: linear-gradient( 135deg, #FFCF71 10%, #2376DD 100%);
 }
 .gallery-sortable-cont h2, h3{

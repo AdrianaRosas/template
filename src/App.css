@@ -11,8 +11,8 @@
     margin: 2px auto;
 }
 .contenedor .sidebar{
-    height: 100vh;
-    /* background-color: rgb(163, 102, 102); */
+    height: 120vh;
+    background-color: rgb(163, 102, 102);
 }
 .contenedor .header {
     background: #ffff;
@@ -46,6 +46,7 @@
     /* background-color: slateblue; */
 }
 .contenedor .form{
+    /* margin-top: 550%; */
     height: 60vh;
     display: flex;
     flex-direction: column;
@@ -55,13 +56,9 @@
     
 }
 @media screen and (max-width: 768px) {
-    /* .contenedor {
-        grid-template-areas: "header header header"
-                         "contenido contenido contenido"
-                         "widget-1 widget-1 widget-2"
-                         "sidebar sidebar sidebar"
-                         "footer footer footer";
-    } */
+    .contenedor .form{
+        margin-top: 540%;
+    }
     
 } 
 

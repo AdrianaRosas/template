@@ -1,6 +1,6 @@
 import React from 'react';
 import { withFormik, Field, ErrorMessage, Form } from 'formik';
-import './Components/Form/Form.css'
+import './Form.css'
 
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 

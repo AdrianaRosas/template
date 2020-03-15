@@ -6,7 +6,7 @@ import Slideshow from './Components/Home/Home'
 import GalleryPhoto from './Components/Gallery/GalleryPhoto';
 import GallerySelect from './Components/Gallery/GallerySelect';
 import Sortable from './Components/Gallery/DragAndDropGallery';
-import MyForm from './Form'
+
 
 class App extends Component {
     render() {
@@ -26,10 +26,6 @@ class App extends Component {
                     <GallerySelect />
                     <Sortable />
                 </section>
-                <section className="form">
-                    <MyForm />
-                </section>
-
               {/* <footer className="footer">
                   <h3>Footer</h3>
               </footer> */}

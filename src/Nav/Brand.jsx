@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import tealogo from '../images/food-and-restaurant.svg'
+import tealogo from '../images/tea-herbal.svg'
 
 // import logo from "../../assets/logo-min.png";
 

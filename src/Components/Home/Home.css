@@ -1,6 +1,6 @@
 .each-slide{
     width: 100%;
-    height: 90vh;
+    height: 80vh;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
@@ -12,7 +12,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 85%;
+    height: 100%;
     width: 100%;
 }
 .each-slide span{
@@ -20,23 +20,9 @@
     height: 50%;
     /* background-color: lightcoral; */
 }
-.react-slideshow-container .nav span {
-    display: block;
-    width: 10px;
-    height: 10px;
-    border-color: rgb(255, 255, 255);
-    border-style: solid;
-    transform: rotate(45deg);
-}
-.react-slideshow-container .nav {
-    margin: 0 2rem 0 2rem;
-    height: 30px;
-    background: rgba(0, 0, 0, 0.9);
-    width: 30px;
-    z-index: 10;
-    text-align: center;
-    cursor: pointer;
-    /* color: #fff; */
+.react-slideshow-container span {
+    height: 20%;
+    margin-right: 12px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -50,13 +36,13 @@
 }
 
 .react-slideshow-container + div.indicators {
-    height: 2rem;
+    height: 1.8rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    background: #C12020;
+    margin-top: 0px;
+    background: rgb(0, 0, 0);
 }
 
 @media (min-width: 768px){

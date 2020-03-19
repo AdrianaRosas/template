@@ -3,16 +3,12 @@
     padding: 0;
 }
 .contenedor {
-    background-color: #ffffff;
+    /* background-color: #0297bd; */
     font-family: 'Roboto Slab', 'Verdana' ;
     font-size: 0.8rem;
     width: 100%;
-    height: 1500vh;
+    height: 800vh;
     margin: 2px auto;
-}
-.contenedor .sidebar{
-    height: 120vh;
-    background-color: rgb(163, 102, 102);
 }
 .contenedor .header {
     background: #ffff;
@@ -25,41 +21,89 @@
     height: 10%;
 
 }
-
 .contenedor .home{
-    height: 100vh;
+    height: 106vh;
     /* background: rgb(36, 212, 183); */
 }
-
-.contenedor .footer{
-    background: rgb(110, 47, 146);
-    height: 50vh;
-    /* grid-column: span 3; */
-    /* grid-area: footer; */
+.contenedor .home h1{
+    font-size: 4rem;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: rgb(219, 218, 218);
+    background-color: #C12020;
+}
+.contenedor .sidebar{
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+    /* background-color: rgb(163, 102, 102); */
 }
 .contenedor .gallery{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 3rem;
-    height: 400vh;
+    height: 360vh;
     /* background-color: slateblue; */
 }
+.contenedor .Cardscards{
+    height: 170vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 5rem; */
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,135,161,1) 0%, rgba(201,78,170,1) 100%);
+}
+.contenedor .footer{
+    height: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #26272b;
+}
 .contenedor .form{
-    /* margin-top: 550%; */
     height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* align-items: center; */
-    /* background-color: mediumorchid; */
     
 }
 @media screen and (max-width: 768px) {
+    .contenedor {
+        height: 1400vh;
+    }
+    /* home */
+    .contenedor .home h1{
+        font-size: 2.5rem;
+        height: 20%;
+    }
+    .contenedor .sidebar{
+        height: 250vh;
+        /* background-color: rgb(163, 102, 102); */
+    }
+    .contenedor .gallery{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 700vh;
+        /* background-color: slateblue; */
+    }
     .contenedor .form{
         margin-top: 540%;
     }
-    
+    .contenedor .Cardscards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 380vh;
+    }
+    .contenedor .footer{
+        height: 8%;
+        flex-direction: column;
+    }
 } 
 
 

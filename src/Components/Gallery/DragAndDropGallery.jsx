@@ -22,8 +22,7 @@ function Sortable() {
 
   return (
     <div className="gallery-sortable-cont">
-      <h5>Sortable Gallery</h5>
-      <h3>Drag photo to rearrange</h3>
+      <h2>Sortable Gallery (Drag photo to rearrange)</h2>
       <SortableGallery items={items} onSortEnd={onSortEnd} axis={"xy"} />
     </div>
   );

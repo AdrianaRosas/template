@@ -1,18 +1,26 @@
 .galleryphoto-container{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    height: 300vh;
-    margin-bottom: 50px;
+    justify-content: center;
+    height: 120vh;
+    /* margin-bottom: 50px; */
     background-image: linear-gradient( 135deg, #F05F57 10%, #360940 100%);
 }
-
+.galleryphoto-container h2{
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 2rem;
+    text-align: center;
+    color: #ffff;
+    width: 100%;
+}
 /* GallerySelect */
 .gallery-select-cont{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 300vh;
-    margin-bottom: 50px;
+    height: 120vh;
+    /* margin-bottom: 50px; */
     background-image: linear-gradient( 135deg, #FD6E6A 10%, #FFC600 100%);
 }
 .p-gallery-select{
@@ -70,17 +78,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 300vh;
-    margin-bottom: 50px;
+    /* justify-content: center; */
+    height: 120vh;
+    /* margin-bottom: 50px; */
     background-image: linear-gradient( 135deg, #FFCF71 10%, #2376DD 100%);
 }
-.gallery-sortable-cont h2, h3{
-    /* width: 70%; */
-    font-family: 'Poppins',sans-serif;
+.gallery-sortable-cont h2{
+    font-size: 2rem;
+    text-align: center;
+    height: 60%;
+    width: 70%;
+    margin: 4rem 0 4rem 0;
+    font-family: 'Baloo Bhaina 2', cursive;
     font-weight: lighter;
     color: #ffff;
     height: 1rem;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     /* background-color: turquoise; */
 }
+
+
+@media screen and (max-width: 768px) {
+    .galleryphoto-container, .gallery-select-cont,  .gallery-sortable-cont{
+        height: 250vh;
+    }
+}  

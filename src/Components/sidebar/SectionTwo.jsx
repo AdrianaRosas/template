@@ -9,13 +9,22 @@ const SectionTwo = () => {
       <div className="img-bar">
         <img
           className="profile"
-          src="https://uploads.codesandbox.io/uploads/user/22ccb5c1-a714-4b5f-b2a4-9926bcf71ffc/_Psm-noPic.jpeg"
+          src="https://image.flaticon.com/icons/svg/1087/1087420.svg"
           alt="profile"
+          
         />
       </div>
-      <Link exact to="/info"><span class="fas fa-circle-notch"></span>Información</Link>
-      <Link to="/variedades"><span class="fas fa-circle-notch"></span>Variedades</Link>
-      <Link to="/suscripcion" ><span class="fas fa-circle-notch"></span>Suscribete</Link>
+      <div className="links-sidebar">
+        <div className="link">
+            <Link exact to="/info"><span class="fas fa-circle-notch"></span>Información</Link>
+         </div>
+         <div className="link">
+            <Link to="/variedades"><span class="fas fa-circle-notch"></span>Variedades</Link>
+         </div>
+         <div className="link">
+            <Link to="/suscripcion" ><span class="fas fa-circle-notch"></span>Suscríbete</Link>
+         </div>
+      </div>
     </div>
   );
 };

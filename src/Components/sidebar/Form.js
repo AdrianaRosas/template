@@ -11,8 +11,9 @@ function MyForm(props) {
     } = props;
 
     return (
+        <div className="form-container">
+         <h2>Suscríbete para recibir noticias</h2>
         <Form>
-            <h4>Formulario</h4>
             <div className="inputs-cont">
             <div className="row-one">
                 <Field name="email" type="email" className="input" placeholder="Email"/>
@@ -38,6 +39,7 @@ function MyForm(props) {
                 </button>
             </div>
         </Form>
+        </div>
     );
 }
 

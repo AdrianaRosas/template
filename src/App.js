@@ -6,7 +6,8 @@ import Slideshow from './Components/Home/Home'
 import GalleryPhoto from './Components/Gallery/GalleryPhoto';
 import GallerySelect from './Components/Gallery/GallerySelect';
 import Sortable from './Components/Gallery/DragAndDropGallery';
-
+import Cards from './Components/Cards/Cards';
+import FooterCont from './Components/Footer/Footer';
 
 class App extends Component {
     render() {
@@ -16,6 +17,7 @@ class App extends Component {
                   <AppNav />
               </header>
               <section className="home">
+                  <h1>- The World of Tea -</h1>
                   <Slideshow />
               </section>
                 <section className="sidebar">
@@ -26,9 +28,12 @@ class App extends Component {
                     <GallerySelect />
                     <Sortable />
                 </section>
-              {/* <footer className="footer">
-                  <h3>Footer</h3>
-              </footer> */}
+                <section className="Cardscards">
+                    <Cards />
+                </section>
+                <section className="footer">
+                    <FooterCont />
+                </section>
             </div>
         )
     }

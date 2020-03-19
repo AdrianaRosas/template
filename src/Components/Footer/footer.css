@@ -1,0 +1,214 @@
+.footer-cont{
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: tomato; */
+}
+.info-footer{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  /* background-color: violet; */
+}
+/* section one */
+.footer-about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  /* background-color: rgb(153, 153, 116); */
+}
+.about-footer{
+  font-family: 'Baloo Bhaina 2', cursive;
+  font-size: 1.5rem;
+  color: rgb(219, 218, 218);
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 20%;
+  /* background-color: antiquewhite; */
+}
+.txt-about-footer{
+  font-family: 'Baloo Bhaina 2', cursive;
+  font-size: 0.8rem;
+  color: rgb(219, 218, 218);
+  font-weight: lighter;
+  width: 80%;
+  height: 65%;
+  /* background-color: aquamarine; */
+}
+
+/* section-two */
+.footer-links{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+  /* background-color: yellowgreen; */
+}
+.links-links{
+  width: 50%;
+  height: 100%;
+  box-sizing: content-box;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* background-color: darkmagenta; */
+}
+.footer-links li{
+  height: 20%;
+}
+.footer-links li a{
+  font-size: 1rem;
+  color: rgb(219, 218, 218);
+  background-color: transparent;
+}
+hr{
+  width: 90%;
+}
+
+/* section-three */
+.footer-end{
+  width: 93%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(112, 112, 30); */
+}
+.copyright-text{
+  font-family: 'Baloo Bhaina 2', cursive;
+  font-size: 0.8rem;
+  color: rgb(219, 218, 218);
+  font-weight: lighter;
+  height: 100%;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: azure; */
+}
+.footer-end .social-contain{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 100%;
+  /* background-color: pink; */
+}
+.social-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 90%;
+  /* background-color: chocolate; */
+}
+.social-icons img{
+  width: 12%;
+  height: 70%;
+  margin: 0 0.8rem 0 0.8rem;
+}
+.social-icons img:hover{
+  transition: ease 0.4s;
+  height: 75%;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-cont{
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: tomato; */
+  }
+  .info-footer{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: violet; */
+  }
+  /* section one */
+.footer-about{
+  width: 100%;
+  height: 80%;
+  margin-bottom: 1rem;
+  /* background-color: rgb(153, 153, 116); */
+}
+.about-footer{
+  font-size: 1rem;
+  width: 90%;
+  height: 30%;
+  /* background-color: rgb(99, 59, 8); */
+}
+.txt-about-footer{
+  font-size: 0.7rem;
+  width: 90%;
+  height: 85%;
+  /* background-color: aquamarine; */
+}
+/* section-two */
+.footer-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  border: 2px solid rgb(219, 218, 218);
+  background-color: transparent;
+  margin-bottom: 2rem;
+}
+.links-links{
+  width: 90%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  /* background-color: darkmagenta; */
+}
+.footer-links li{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: turquoise; */
+  height: 16%;
+  margin-left: 0;
+}
+.footer-links li a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 1.2rem;
+  color: rgb(219, 218, 218);
+  /* background-color: blue; */
+}
+hr{
+  display: none;
+}
+/* end */
+.footer-end{
+  width: 90%;
+  height: 15%;
+  flex-direction: column;
+  /* background-color: rgb(112, 112, 30); */
+}
+.copyright-text{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: azure; */
+}
+
+
+}

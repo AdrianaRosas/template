@@ -23,6 +23,7 @@ function GalleryPhoto() {
     
     return (
         <div className="galleryphoto-container">
+            <h2>Galería de fotos</h2>
             <Gallery photos={photos} onClick={openLightbox} />
             <ModalGateway>
                 {viewerIsOpen ? (
